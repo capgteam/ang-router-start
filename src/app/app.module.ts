@@ -19,9 +19,7 @@ import { CourseDetailComponent } from './courses/course-detail/course-detail.com
 import { ContactComponent } from './contact/contact.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { AboutComponent } from './about/about.component';
-
-
-
+import { RoutingModule } from './routing.module';
 
 @NgModule({
   declarations: [
@@ -43,7 +41,8 @@ import { AboutComponent } from './about/about.component';
     AboutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule ,
+    RoutingModule
   ],
   providers: [ServicesService, CourseService],
   bootstrap: [AppComponent]

@@ -14,6 +14,7 @@ body{
 .active{
     font-size: 18px;
     font-weight: bold;
+    background-color: brown;
 }
 
     .loader {
